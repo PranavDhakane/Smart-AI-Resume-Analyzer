@@ -1,149 +1,152 @@
-# ✨ Code of Conduct ✨
+# ✨ Code of Conduct — Smart AI Resume Analyzer ✨
 
-Welcome to the **Smart AI Resume Analyzer** repository! We're thrilled to have you contribute to this project. To ensure a welcoming, respectful, and productive environment for everyone, we follow this Code of Conduct.
+Welcome to **Smart AI Resume Analyzer**, created by **Pranav Dhakane**! 🚀
+
+I'm a final-year B.Tech student specializing in Computer Science and Engineering with Artificial Intelligence and Machine Learning (CSE AIML). This project aims to make resume analysis smarter and more accessible through technology.
+
+I welcome developers, students, AI/ML enthusiasts, and open-source contributors to learn, collaborate, and improve this project together.
 
 <div align="center">
-  
-[![Community](https://img.shields.io/badge/Community-Welcoming-brightgreen?style=for-the-badge)](https://discord.com/invite/dy4gAhng)  
-[![Join the discussion](https://img.shields.io/badge/Join-Discussion-blue?style=for-the-badge&logo=Discussions)](https://github.com/Hunterdii/Smart-AI-Resume-Analyzer/discussions)
+
+[![Community](https://img.shields.io/badge/Community-Welcoming-brightgreen?style=for-the-badge)](https://github.com/PranavDhakane)
+
+[![GitHub](https://img.shields.io/badge/GitHub-PranavDhakane-black?style=for-the-badge&logo=github)](https://github.com/PranavDhakane)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pranav%20Dhakane-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/pranav-dhakane-288634327/)
+
 </div>
 
+---
 
-## 🎯 **Core Values**
+## 🎯 Core Values
 
-![Quality Badge](https://img.shields.io/badge/Quality-First-orange?style=flat-square)  
+- 🌈 **Inclusivity:** Everyone is welcome, regardless of background or experience.
+- 🤝 **Respect:** Treat every contributor with kindness and professionalism.
+- 💡 **Innovation:** Share ideas that improve resume analysis and AI-powered applications.
+- 📚 **Learning:** Encourage students and beginners to explore software development and AI/ML.
+- ❤️ **Collaboration:** Work together to build useful, reliable, and accessible technology.
 
-- **🌈 Inclusive**: We celebrate diversity and ensure that everyone feels valued.
-- **🤝 Respectful**: Mutual respect forms the foundation of our community.
-- **💬 Collaborative**: Constructive feedback drives growth and innovation.
-- **🏆 Supportive**: We lift each other up, focusing on shared success.
-- **❤️ Empathetic**: We understand and support our community members, offering a safe space for all.
+## 🚫 Unacceptable Behavior
 
+The following behaviors are not acceptable:
 
+- Harassment, discrimination, or personal attacks.
+- Insulting, threatening, or bullying other contributors.
+- Sharing private information without permission.
+- Trolling, spamming, or deliberately disrupting discussions.
+- Plagiarism or presenting another person's work as your own.
+- Any conduct that makes the community unsafe or unwelcoming.
 
-## 🚫 **Unacceptable Behavior**
+## 🛡️ Code of Conduct Enforcement
 
-We absolutely do not tolerate:
+All contributors are expected to follow this Code of Conduct.
 
-- **💢 Harassment or discrimination** based on race, gender, religion, or other personal attributes.
-- **💬 Offensive language** and inappropriate conduct.
-- **🔒 Unauthorized sharing of personal information**.
-- **🚷 Bullying, trolling, or harmful behavior**.
+Project maintainers may review reported incidents and take appropriate action, including removing comments, rejecting contributions, or restricting participation when necessary.
 
+To report an issue, contact the repository owner through the contact options available on my GitHub profile:
 
+👉 [Pranav Dhakane — GitHub Profile](https://github.com/PranavDhakane)
 
-## 🛡️ **Code of Conduct Enforcement**
+Please include relevant details so the concern can be reviewed. Reports will be handled respectfully and as confidentially as reasonably possible.
 
-Our community leaders ensure a positive environment. Should you witness or experience any unacceptable behavior, please reach out to:
+## 🌟 Our Pledge
 
-[**Hunterdii**](mailto:hunterdii9879@gmail.com)
+We are committed to making participation in Smart AI Resume Analyzer a positive experience for everyone, regardless of:
 
-All reports are treated with the highest confidentiality and attention.
+- Gender or gender identity
+- Disability or physical appearance
+- Age or educational background
+- Race, ethnicity, or religion
+- Nationality or socioeconomic background
+- Programming experience or technical skill level
+- Any other characteristic protected by applicable law
 
+## 🤝 Be Respectful
 
+To maintain a healthy community:
 
-## 🌟 **Our Pledge**
+- Use inclusive and professional language.
+- Respect different opinions and approaches.
+- Give constructive feedback rather than personal criticism.
+- Welcome beginners and help them learn.
+- Accept feedback gracefully and focus on improving the project.
 
-We pledge to make participation in our project a harassment-free experience for everyone, regardless of:
+## 💬 Be Collaborative
 
-- Gender
-- Gender identity
-- Disability
-- Personal appearance
-- Body size
-- Race
-- Age
-- Religion
-- Or any other characteristic
+Contributions of all sizes are valuable!
 
+- 🙌 Ask questions when you need help.
+- 💡 Suggest features and improvements.
+- 🐛 Report bugs with clear reproduction steps.
+- 🧪 Help test fixes and new functionality.
+- 📖 Improve documentation and setup instructions.
+- 🌱 Share knowledge about Python, FastAPI, SQL, AI/ML, and software development.
 
+## ⚙️ How to Contribute
 
-## 🤝 **Be Respectful**
+Want to contribute to Smart AI Resume Analyzer? Follow these steps:
 
-Everyone should be treated with respect. Please be considerate of others' opinions, ideas, and contributions. Here's how we aim to foster a respectful environment:
+1. **Fork** the repository.
+2. **Clone** your fork to your local machine.
+3. **Create a branch** for your changes.
+4. **Make your changes** and test them.
+5. **Commit** using a clear, descriptive commit message.
+6. **Push** your branch to your fork.
+7. **Submit a Pull Request** explaining what you changed and why.
 
-- Use inclusive language in all discussions.
-- Value diverse viewpoints and encourage new contributors.
-- Avoid belittling or mocking others, even in jest.
+Please avoid committing passwords, API keys, database credentials, personal resume information, or other sensitive data.
 
+## 🐛 Reporting Issues
 
+If you find a bug or have a feature request:
 
-## 💬 **Be Collaborative**
+- Describe the issue clearly.
+- Include steps to reproduce the problem.
+- Share relevant error messages or screenshots, excluding sensitive information.
+- Explain what you expected to happen.
 
-We love collaboration! Whether you're submitting a bug fix, suggesting a new feature, or helping with documentation, we encourage a team-oriented spirit:
+You can report issues through the repository's **Issues** tab.
 
-- **Ask for help when you need it** 🙌.
-- **Offer help when you can** 😄.
-- Avoid pushing others into doing your work; instead, help them with theirs.
+## 🔒 Privacy and Responsible AI
 
+Because this project processes resumes, privacy is especially important.
 
+- Do not upload another person's resume without permission.
+- Do not expose personal information in issues, screenshots, or pull requests.
+- Never commit real user resumes or confidential data to the repository.
+- Use test or anonymized data when developing and testing features.
+- Treat AI-generated analysis as assistance, not as a definitive judgment of a person's abilities or suitability for a job.
 
-## 🚫 **No Harassment**
+## 🛠️ Project Philosophy
 
-Harassment of any form is strictly prohibited. This includes:
+Smart AI Resume Analyzer is part of my journey as a CSE AIML student to build practical applications and strengthen my software development skills.
 
-- Offensive comments related to race, gender, sexual orientation, disability, or any other personal characteristic.
-- Personal attacks, threats, trolling, or any form of disruptive behavior.
+My goal is to keep learning, experiment with new technologies, improve the project, and create something useful for students and job seekers.
 
-Let's keep it a safe, supportive space for everyone. 🔒
+Technology should help people identify opportunities for improvement while respecting their privacy and individuality.
 
+## 🙌 Acknowledgments
 
+This Code of Conduct is inspired by the [Contributor Covenant](https://www.contributor-covenant.org/), a widely used open-source community guideline.
 
-## ⚙️ **How You Can Contribute**
+## 📜 Final Note
 
-We encourage open-source contributions! To keep things smooth, follow these guidelines:
+Thank you for visiting Smart AI Resume Analyzer and being part of this journey!
 
-- **Fork** the repository and create a new branch.
-- Write **descriptive commit messages**.
-- Add tests where necessary and follow the **coding style**.
-- Submit a **Pull Request (PR)** with a clear description of changes.
+Every useful suggestion, bug report, documentation improvement, and code contribution helps the project grow.
 
-
-
-## 🛠️ **Reporting Issues**
-
-![Report Badge](https://img.shields.io/badge/Report%20Issues-Confidential-red?style=flat-square)  
-
-If you experience or witness any violations of this Code of Conduct, please report them immediately to [**Hunterdii**](mailto:hunterdii9879@gmail.com). All reports will be handled **confidentially** and with utmost care.
-
-
-
-## 🙌 **Acknowledgments**
-
-This Code of Conduct is inspired by and adapted from the [Contributor Covenant](https://www.contributor-covenant.org/).
-
-
-
-## 📜 **Final Note**
-
-![Thank You Badge](https://img.shields.io/badge/Thank%20You!-For%20Being%20Awesome-brightgreen?style=flat-square)  
-
-We value your contributions and look forward to building something amazing together! 🚀 Thank you for helping us create a supportive and collaborative space. 💖
-
-
-
-## 👏 **Together, Let's Make Magic!**
-
-We are all part of something special here! This project will thrive because of your contributions, kindness, and cooperation. Let’s make it a wonderful experience for everyone involved.
-
-
-
-## 😎 **Fun Section**
-
-While we are serious about maintaining a friendly environment, we don’t mind having fun! Check out this awesome GIF:
 <div align="center">
 
-![Celebration GIF](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)  
+### 🚀 Learn. Build. Innovate. Repeat.
+
+**Created with ❤️ by Pranav Dhakane**
+
+[GitHub](https://github.com/PranavDhakane) · [LinkedIn](https://www.linkedin.com/in/pranav-dhakane-288634327/)
+
+⭐ If you find this project useful, consider giving the repository a star!
+
 </div>
 
-> "Alone, we can do so little; together, we can do so much." – Helen Keller
+---
 
-
-
-## 🚀 **Let’s Get Started!**
-
-Now, go ahead and contribute to the project! Whether it's code, documentation, or feedback, your contribution matters. 💻 💬
-
-
-
-:wave: **Happy Coding!** 🎉
+👨‍💻 **Happy Coding!** Let's build something meaningful together. 🎉
