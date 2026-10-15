@@ -39,7 +39,7 @@ import datetime
 
 # Set page config at the very beginning
 st.set_page_config(
-    page_title="Smart Resume AI",
+    page_title="Smart Resume AI Analyzer",
     page_icon="🚀",
     layout="wide"
 )
@@ -474,7 +474,7 @@ class ResumeApp:
             # GitHub star button with lottie animation
             st.markdown("""
             <div style='display: flex; justify-content: center; align-items: center; margin-bottom: 10px;'>
-                <a href='https://github.com/Hunterdii/Smart-AI-Resume-Analyzer' target='_blank' style='text-decoration: none;'>
+                <a href='https://github.com/PranavDhakane/Smart-AI-Resume-Analyzer' target='_blank' style='text-decoration: none;'>
                     <div style='display: flex; align-items: center; background-color: #24292e; padding: 5px 10px; border-radius: 5px; transition: all 0.3s ease;'>
                         <svg height="16" width="16" viewBox="0 0 16 16" version="1.1" style='margin-right: 5px;'>
                             <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z" fill="gold"></path>
@@ -489,8 +489,8 @@ class ResumeApp:
             st.markdown("""
             <p style='text-align: center;'>
                 Powered by <b>Streamlit</b> and <b>Google Gemini AI</b> | Developed by 
-                <a href="https://www.linkedin.com/in/patel-hetkumar-sandipbhai-8b110525a/" target="_blank" style='text-decoration: none; color: #FFFFFF'>
-                    <b>Het Patel (Hunterdii)</b>
+                <a href="https://www.linkedin.com/in/pranav-dhakane-288634327/" target="_blank" style='text-decoration: none; color: #FFFFFF'>
+                    <b>Pranav Dhakane</b>
                 </a>
             </p>
             <p style='text-align: center; font-size: 12px; color: #888888;'>
@@ -547,7 +547,7 @@ class ResumeApp:
         """Render the dashboard page"""
         self.dashboard_manager.render_dashboard()
 
-        st.toast("Check out these repositories: [Awesome Hacking](https://github.com/Hunterdii/Awesome-Hacking)", icon="ℹ️")
+        st.toast("Check out this repository: [Smart AI Resume Analyzer](https://github.com/PranavDhakane/Smart-AI-Resume-Analyzer)", icon="ℹ️")
 
 
     def render_empty_state(self, icon, message):
@@ -1001,7 +1001,7 @@ class ResumeApp:
                 print(f"Full traceback: {traceback.format_exc()}")
                 st.error(f"❌ Error preparing resume data: {str(e)}")
 
-        st.toast("Check out these repositories: [30-Days-Of-Rust](https://github.com/Hunterdii/30-Days-Of-Rust)", icon="ℹ️")
+        st.toast("⭐ Star this project: [Smart AI Resume Analyzer](https://github.com/PranavDhakane/Smart-AI-Resume-Analyzer)", icon="ℹ️")
 
     def render_about(self):
         """Render the about page"""
@@ -1020,10 +1020,12 @@ class ResumeApp:
                 return None
 
         # Get image path and convert to base64
+        # Using Pranav's professional circular portrait photo
         image_path = os.path.join(
-    os.path.dirname(__file__),
-    "assets",
-     "124852522.jpeg")
+            os.path.dirname(__file__),
+            "assets",
+            "pranav_profile.jpg"  # New professional photo
+        )
         image_base64 = get_image_as_base64(image_path)
 
         apply_modern_styles()
@@ -1156,7 +1158,7 @@ class ResumeApp:
         # Hero Section
         st.markdown("""
             <div class="hero-section">
-                <h1 class="hero-title">About Smart Resume AI</h1>
+                <h1 class="hero-title">About Smart Resume AI Analyzer</h1>
                 <p class="hero-subtitle">A powerful AI-driven platform for optimizing your resume</p>
             </div>
         """, unsafe_allow_html=True)
@@ -1165,16 +1167,16 @@ class ResumeApp:
         st.markdown(f"""
             <div class="profile-section">
                 <img src="{image_base64 if image_base64 else 'https://avatars.githubusercontent.com/Hunterdii'}"
-                     alt="Het Patel"
+                     alt="Pranav Dhakane"
                      class="profile-image"
                      onerror="this.onerror=null; this.src='https://avatars.githubusercontent.com/Hunterdii';">
-                <h2 class="profile-name">Het Patel (Hunterdii)</h2>
-                <p class="profile-title">Full Stack Developer & AI/ML Enthusiast</p>
+                <h2 class="profile-name">Pranav Dhakane</h2>
+                <p class="profile-title">Final-Year B.Tech CSE (AI & ML) Student | Aspiring AI/ML Engineer</p>
                 <div class="social-links">
-                    <a href="https://github.com/Hunterdii" class="social-link" target="_blank">
+                    <a href="https://github.com/PranavDhakane" class="social-link" target="_blank">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/patel-hetkumar-sandipbhai-8b110525a/" class="social-link" target="_blank">
+                    <a href="https://www.linkedin.com/in/pranav-dhakane-288634327/" class="social-link" target="_blank">
                         <i class="fab fa-linkedin"></i>
                     </a>
                     <a href="mailto:hunterdii9879@gmail.com" class="social-link" target="_blank">
@@ -1182,10 +1184,10 @@ class ResumeApp:
                     </a>
                 </div>
                 <p class="bio-text">
-                    Hello! I'm a passionate Full Stack Developer with expertise in AI and Machine Learning.
-                    I created Smart Resume AI to revolutionize how job seekers approach their career journey.
-                    With my background in both software development and AI, I've designed this platform to
-                    provide intelligent, data-driven insights for resume optimization.
+                    Hello! I'm a final-year Computer Science Engineering student specializing in AI and Machine Learning.
+                    I developed Smart Resume AI Analyzer to help job seekers optimize their resumes using cutting-edge technology.
+                    As an aspiring AI/ML engineer passionate about problem-solving and building practical applications,
+                    I designed this platform to provide intelligent, data-driven insights for career advancement.
                 </p>
             </div>
         """, unsafe_allow_html=True)
@@ -1199,9 +1201,10 @@ class ResumeApp:
                 <i class="fas fa-lightbulb vision-icon"></i>
                 <h2 class="vision-title">Our Vision</h2>
                 <p class="vision-text">
-                    "Smart Resume AI represents my vision of democratizing career advancement through technology.
-                    By combining cutting-edge AI with intuitive design, this platform empowers job seekers at
-                    every career stage to showcase their true potential and stand out in today's competitive job market."
+                    "Smart Resume AI Analyzer represents my vision of making career development accessible and easier through technology.
+                    By leveraging AI-powered resume analysis, this platform helps students and professionals enhance their resumes,
+                    identify improvement areas, and stand out in today's competitive job market. My goal is to bridge the gap
+                    between job seekers and their dream careers using practical, intelligent solutions."
                 </p>
             </div>
         """, unsafe_allow_html=True)
@@ -1239,7 +1242,7 @@ class ResumeApp:
             </div>
         """, unsafe_allow_html=True)
 
-        st.toast("Check out these repositories: [Iriswise](https://github.com/Hunterdii/Iriswise)", icon="ℹ️")
+        st.toast("⭐ Like this project? Star it on GitHub: [Smart AI Resume Analyzer](https://github.com/PranavDhakane/Smart-AI-Resume-Analyzer)", icon="ℹ️")
 
     def render_analyzer(self):
         """Render the resume analyzer page"""
@@ -2798,7 +2801,7 @@ class ResumeApp:
                             import traceback as tb
                             st.code(tb.format_exc())
 
-        st.toast("Check out these repositories: [Awesome Java](https://github.com/Hunterdii/Awesome-Java)", icon="ℹ️")
+        st.toast("💡 Found this helpful? Star the repo: [Smart AI Resume Analyzer](https://github.com/PranavDhakane/Smart-AI-Resume-Analyzer)", icon="ℹ️")
 
 
     def render_home(self):
@@ -2806,7 +2809,7 @@ class ResumeApp:
         
         # Hero Section
         hero_section(
-            "Smart Resume AI",
+            "Smart Resume AI Analyzer",
             "Transform your career with AI-powered resume analysis and building. Get personalized insights and create professional resumes that stand out."
         )
         
@@ -2833,7 +2836,7 @@ class ResumeApp:
         
         st.markdown('</div>', unsafe_allow_html=True)
         
-        st.toast("Check out these repositories: [AI-Nexus(AI/ML)](https://github.com/Hunterdii/AI-Nexus)", icon="ℹ️")
+        st.toast("🚀 Support this project: [Star on GitHub](https://github.com/PranavDhakane/Smart-AI-Resume-Analyzer)", icon="ℹ️")
 
         # Call-to-Action with Streamlit navigation
         col1, col2, col3 = st.columns([1, 1, 1])
@@ -2850,7 +2853,7 @@ class ResumeApp:
         """Render the job search page"""
         render_job_search()
 
-        st.toast("Check out these repositories: [GeeksforGeeks-POTD](https://github.com/Hunterdii/GeeksforGeeks-POTD)", icon="ℹ️")
+        st.toast("⭐ Enjoying the app? Star it: [Smart AI Resume Analyzer](https://github.com/PranavDhakane/Smart-AI-Resume-Analyzer)", icon="ℹ️")
 
 
     def render_feedback_page(self):
@@ -2875,31 +2878,16 @@ class ResumeApp:
         with stats_tab:
             feedback_manager.render_feedback_stats()
 
-        st.toast("Check out these repositories: [TryHackMe Free Rooms](https://github.com/Hunterdii/tryhackme-free-rooms)", icon="ℹ️")
+        st.toast("💫 Show your support: [Star this repo](https://github.com/PranavDhakane/Smart-AI-Resume-Analyzer)", icon="ℹ️")
 
 
     def show_repo_notification(self):
         message = """
 <div style="background-color: #1e1e1e; border-radius: 10px; border: 1px solid #4b6cb7; padding: 10px; margin: 10px 0; color: white;">
-    <div style="margin-bottom: 10px;">Check out these other repositories:</div>
-    <div style="margin-bottom: 5px;"><b>Hacking Resources:</b></div>
+    <div style="margin-bottom: 10px;">⭐ Support This Project:</div>
     <ul style="margin-top: 0; padding-left: 20px;">
-        <li><a href="https://github.com/Hunterdii/tryhackme-free-rooms" target="_blank" style="color: #4CAF50;">TryHackMe Free Rooms</a></li>
-        <li><a href="https://github.com/Hunterdii/Awesome-Hacking" target="_blank" style="color: #4CAF50;">Awesome Hacking</a></li>
-    </ul>
-    <div style="margin-bottom: 5px;"><b>Programming Languages:</b></div>
-    <ul style="margin-top: 0; padding-left: 20px;">
-        <li><a href="https://github.com/Hunterdii/Awesome-Java" target="_blank" style="color: #4CAF50;">Awesome Java</a></li>
-        <li><a href="https://github.com/Hunterdii/30-Days-Of-Rust" target="_blank" style="color: #4CAF50;">30 Days Of Rust</a></li>
-    </ul>
-    <div style="margin-bottom: 5px;"><b>Data Structures & Algorithms:</b></div>
-    <ul style="margin-top: 0; padding-left: 20px;">
-        <li><a href="https://github.com/Hunterdii/GeeksforGeeks-POTD" target="_blank" style="color: #4CAF50;">GeeksforGeeks POTD</a></li>
-        <li><a href="https://github.com/Hunterdii/Leetcode-POTD" target="_blank" style="color: #4CAF50;">Leetcode POTD</a></li>
-    </ul>
-    <div style="margin-bottom: 5px;"><b>AI/ML Projects:</b></div>
-    <ul style="margin-top: 0; padding-left: 20px;">
-        <li><a href="https://github.com/Hunterdii/AI-Nexus" target="_blank" style="color: #4CAF50;">AI Nexus</a></li>
+        <li><a href="https://github.com/PranavDhakane/Smart-AI-Resume-Analyzer" target="_blank" style="color: #4CAF50;">Star on GitHub</a></li>
+        <li><a href="https://github.com/PranavDhakane" target="_blank" style="color: #4CAF50;">View Profile</a></li>
     </ul>
     <div style="margin-top: 10px;">If you find this project helpful, please consider ⭐ starring the repo!</div>
 </div>
@@ -2914,7 +2902,7 @@ class ResumeApp:
         # Admin login/logout in sidebar
         with st.sidebar:
             st_lottie(self.load_lottie_url("https://assets5.lottiefiles.com/packages/lf20_xyadoh9h.json"), height=200, key="sidebar_animation")
-            st.title("Smart Resume AI")
+            st.title("Smart Resume AI Analyzer")
             st.markdown("---")
             
             # Navigation buttons

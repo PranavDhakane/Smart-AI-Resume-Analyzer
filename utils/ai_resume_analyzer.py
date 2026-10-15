@@ -19,11 +19,16 @@ import re
 
 class AIResumeAnalyzer:
     def __init__(self):
-        # Load environment variables
+        # Load environment variables from .env file (for local development)
         load_dotenv()
         
         # Configure Google Gemini AI
-        self.google_api_key = os.getenv("GOOGLE_API_KEY")
+        # Try Streamlit secrets first (for cloud deployment), then environment variables
+        try:
+            self.google_api_key = st.secrets.get("GOOGLE_API_KEY", os.getenv("GOOGLE_API_KEY"))
+        except:
+            self.google_api_key = os.getenv("GOOGLE_API_KEY")
+            
         self.openrouter_api_key = os.getenv("OPENROUTER_API_KEY")
         
         if self.google_api_key:
